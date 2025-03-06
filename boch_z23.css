@@ -1,0 +1,38 @@
+#pogrubienie_mysiv {
+    font-size: 30px;
+    color: rgb(145, 92, 201);
+    font-weight: bold;
+}
+
+#pochylona_mysiv {
+    font-size: 35px;
+    color: rgb(245, 192, 101);
+    font-style: oblique;
+}
+#index_gorny_mysiv {
+    font-size: 1cm;
+    color: rgb(165, 142, 21);
+    text-transform: uppercase;
+}
+
+#index_dolny_mysiv {
+    font-size: 1.5cm;
+    color: rgb(12%, 46%, 42%);
+    text-transform: lowercase;
+}
+
+#mono_mysiv {
+    font-size: 40px;
+    color: rgb(37, 222, 101);
+    font-family: monospace;
+}
+
+#powiekszenie_mysiv {
+    color: rgb(95, 62, 151);
+    transform: scale(1.25);
+    padding-left: 100px;
+}
+#pomniejszenie_mysiv {
+    color: rgb(50%, 37%, 13%);
+    transform: scale(0.75);
+}

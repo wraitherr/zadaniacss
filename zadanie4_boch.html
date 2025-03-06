@@ -1,0 +1,68 @@
+<html>
+ <head>
+ <META HTTP-EQUIV="content-type" CONTENT="text/html">
+ 
+ <style>
+ textarea {
+ resize: none;
+ }
+ td {
+ border: black solid 2px;
+ }
+ </style>
+ 
+ </head>
+<body>
+<table>
+<tr>
+<td>Zewnętrzny arkusz stylów</td>
+<td><textarea cols="67" rows="4"  disabled readonly >
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea></td>
+</tr>
+
+<tr>
+<td>Styl lokalny inaczej:</td>
+<td><textarea cols="67" rows="3"  disabled readonly >
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea></td>
+</tr>
+
+<tr>
+<td>Wewnętrzny arkusz stylów</td>
+<td><textarea cols="67" rows="7"  disabled readonly >
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</textarea></td>
+</tr>
+
+<tr>
+<td>Alternatywny arkusz stylów</td>
+<td><textarea cols="67" rows="9"  disabled readonly resize>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea></td>
+</tr>
+
+<tr>
+<td>Import arkusza stylów</td>
+<td><textarea cols="67" rows="4"  disabled readonly resize>
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea></td>
+</tr>
+</table>
+<a href="start.html" target="strony">wroć</a>
+
+</body>
+</html>
