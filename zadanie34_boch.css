@@ -1,0 +1,36 @@
+h3 {
+color: olive;
+}
+/* blok górny */
+#blok-gorny {
+width: 400pt;
+height: 3cm;
+background-color: #FFFF99;
+border-top: 2px groove #C0C0C0;
+border-bottom: 2px groove #FF00FF;
+border-left: 4px groove #FFFF00;
+border-right: 4px groove #800080;
+margin: auto;
+padding-left: 10px;
+}
+/* blok środkowy */
+#blok-srodkowy {
+width: 280pt;
+height: 4cm;
+background: #FFFFFF;
+border: 3px ridge #800000;
+margin-left: 16%;
+margin-top: 5%;
+text-align: center;
+}
+/* blok dolny */
+#blok-dolny {
+width: 350pt;
+height: 2cm;
+background: #FFFFFF;
+border: 2px ridge #008080;
+margin-left: 40%;
+font-size: 12px;
+margin-top: 5%;
+}
+/*Artem Bochkovskyi, 1pG1*/
