@@ -1,0 +1,36 @@
+
+#blok1_bochkovskyi{
+    width: 603px;
+    background-color: green;
+    font-size: 21px;
+}
+
+#blok2_bochkovskyi{
+    width: 603px;
+    background-color: green;
+    font-size: 21px;
+}
+
+#blok3_bochkovskyi{
+    width: 603px;
+    background-color: green;
+    font-size: 21px;
+}
+
+div#blok1_bochkovskyi {background-color: 00ff00;width:603px;font-size:21mm;} 
+div#blok2_bochkovskyi {background-color: 00ff00;width:603px;font-size:21mm;} 
+div#blok3_bochkovskyi {background-color: 00ff00;width:603px;font-size:21mm;} 
+
+div#blok1_bochkovskyi:hover {background-color: yellow;font-size:21mm;} 
+div#blok2_bochkovskyi:hover {background-color: red;font-size:21mm;}
+div#blok3_bochkovskyi:hover {background-color: cyan;font-size:21mm;}
+
+
+/* 21mm wynika z obliczenia wielkości liter Ty oblicz Twoją wielkść */ 
+/* dopisz jeszcze dwa hover z opowiednimi kolorami patrz tabela */ 
+/* Dopisz _Twoje_nazwisko po blik1, blok2, blok3 w całym kodzie */
+
+
+/*
+• hover; → The CSS :hover pseudo-class is used to select elements when you mouse over them.
+• Artem Bochkovskyi */
