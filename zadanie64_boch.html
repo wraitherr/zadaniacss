@@ -1,0 +1,82 @@
+<head>
+<meta charset="UTF-8">
+<title>Zadanie 64 Bochkovskyi</title>
+<style>
+.tabelka {
+   border-radius: 15px;
+  overflow: hidden;
+}
+.przyklad {
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;}
+.tabelka-tabelka{
+  width: 100%;
+  border-collapse: collapse;}
+
+th {
+  background-color: rgb(255, 116, 35);
+  padding: 8px 15px;
+  text-align: center;
+  border: 1px solid #ddd;}
+  td {
+  background-color: rgb(255, 130, 35);
+  padding: 8px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+h1 {
+text-align: center;
+width: 30%;
+height: auto;
+ margin : 20px;
+ border : 6px dashed black;
+ background : rgb(255, 150, 35);
+ }
+ h2 {
+text-align: center;
+width: 30%;
+height: auto%;
+ margin : 20px;
+ border : 6px dashed black;
+ background : rgb(255, 130, 35);
+ }
+
+
+</style>
+</head>
+<body>
+
+<div class="tabelka">
+  <table class="tabelka-tabelka">
+    <thead>
+      <tr>
+        <th>To jest tabela z zaokrąglonymi rogami</th><!--1)-->
+      </tr>
+    </thead>
+	<tbody>
+	<td>
+	Zastosowanie:<br>
+We wszystkich przypadkach selektorem może być dowolny znacznik, np.<br><!--2)-->
+• p – akapit<br>
+• h1 –nagłówek<br>
+• div –blok
+	</td>
+	<tr>
+	<td>Aby wycentrować div'a należy w definicji CSS bloku DIV wpisać:<br>margin-left: auto;<br>margin-right: auto;</td>
+	</tr>
+	</tbody>
+  </table>
+</div>
+<center>
+<div class="przyklad">
+<table>
+    <thead>
+      <tr>
+        <th>to jest przykład z instrukcji</th><!--3)-->
+      </tr>
+    </thead>
+  </table>
+</div>
+</center></body>
