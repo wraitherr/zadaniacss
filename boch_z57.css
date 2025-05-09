@@ -1,0 +1,19 @@
+    *{
+    font-size: 35pt;
+    background-color: silver; 
+    color: red;
+    }
+    
+    p.klasa_nieuniwersalna_boch {
+    font-size: 36pt;
+    color: green;
+    }
+    
+    .klasa_nieuniwersalna_boch {
+    font-size: 25pt;
+    color: black;
+    }
+    
+    div.klasa_nieuniwersalna_boch {
+    color: red;
+    }

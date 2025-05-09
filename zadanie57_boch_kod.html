@@ -1,0 +1,64 @@
+<center>
+Plik *html<br>
+<textarea rows="45" cols="130">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="boch_z57.css">
+    </head>
+    <body>
+        <p>
+            <u>Akapit 1</u> Artem Bochkovskyi 1P<br />
+            Użyłem * gwiazdka dla selektora uniwersalnego, Parametry dla selektora uniwersalnego: (dla imienia - Artem) <br/>
+            wielkość 30+liczba_liter_imienia w [pt] = 30 + 5 (Artem) = 35 [pt], <br/>
+            mam numer w dzienniku 3 a więc nieparzysty, czyli kolor tła czerwony.<br/>
+        </p>
+        <p class="klasa_nieuniwersalna_boch">
+            <u>Akapit 2</u>, Artem Bochkovskyi 1P
+            <br />
+            Użyłem p.klasa_nieuniwersalna_boch, <br/>
+            Parametry dla klasy nieuniwersalnej: (dla nazwiska Bochkovskyi)
+            wielkość 25+liczba_liter_nazwiska w [pt] = 25+11 (Bochkovskyi)=36 [pt] ,
+            kolor liter zielony (dla numerów nieparzystych w dzienniku).
+        </p>
+        <h1 class="klasa_nieuniwersalna_boch">
+            <u>Akapit 3</u>, Artem Bochkovskyi 1P gr1<br/>
+            Użyłem .klasa_nieuniwersalna_boch dla H1,  <br/>
+            Parametry dla klasy uniwersalnej: (dla miesiąca maj - 5)  <br/>
+            wielkość 20+miesiąc urodzenia w [pt]  = 20 + 5 (maj) = 25 [pt] ,  <br/>
+            kolor liter czarny (dla numerów nieparzystych w dzienniku). 
+        </h1>
+        <div class="klasa_nieuniwersalna_boch">
+            <u>Akapit 4</u>, Artem Bochkovskyi 1P gr1<br/>
+            Użyłem .klasa_nieuniwersalna_boch dla DIV  <br/>
+            Parametry dla klasy uniwersalnej: (dla miesiąca maj - 5)  <br/>
+            wielkość 20+miesiąc urodzenia w [pt]  = 20 + 5 (maj) = 25 [pt] ,  <br/>
+            kolor liter czerwony (dla numerów nieparzystych w dzienniku). 
+        </div>
+    </body>
+    </html>
+
+</textarea><br>Plik *css<br>
+<textarea rows="15" cols="35">
+    *{
+        font-size: 35pt;
+        background-color: silver; 
+        color: red;
+        }
+        
+        p.klasa_nieuniwersalna_boch {
+        font-size: 36pt;
+        color: green;
+        }
+        
+        .klasa_nieuniwersalna_boch {
+        font-size: 25pt;
+        color: black;
+        }
+        
+        div.klasa_nieuniwersalna_boch {
+        color: red;
+        }
+</textarea>
+</center>
